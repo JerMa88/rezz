@@ -4,7 +4,7 @@ TEST_DIR = .
 BUILD_DIR = build
 
 # Run all tests
-test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects test_ds_certifications test_ds_awards test_ds_languages
+test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects test_ds_certifications test_ds_awards test_ds_languages test_ds_resume
 	@echo "Running all tests..."
 	@echo "===================="
 	@echo "Running Skills Tests:"
@@ -28,25 +28,31 @@ test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects 
 	@echo "Running Languages Tests:"
 	./build/test_languages
 	@echo ""
+	@echo "Running Resume Tests:"
+	./build/test_resume
+	@echo ""
 	@echo "All tests completed!"
 
 test_ds_skills:
-	g++ -I../src -I. ./ds/test_skills.cpp ../src/ds/skills.cpp ../src/ds/skill.cpp -o build/test_skills -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_skills.cpp ../src/ds/resume/skills.cpp ../src/ds/resume/skill.cpp -o build/test_skills -lm -std=c++11
 
 test_ds_education:
-	g++ -I../src -I. ./ds/test_education.cpp ../src/ds/education.cpp -o build/test_education -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_education.cpp ../src/ds/resume/education.cpp -o build/test_education -lm -std=c++11
 
 test_ds_experiences:
-	g++ -I../src -I. ./ds/test_experiences.cpp -o build/test_experiences -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_experiences.cpp -o build/test_experiences -lm -std=c++11
 
 test_ds_projects:
-	g++ -I../src -I. ./ds/test_projects.cpp ../src/ds/skill.cpp -o build/test_projects -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_projects.cpp ../src/ds/resume/skill.cpp -o build/test_projects -lm -std=c++11
 
 test_ds_certifications:
-	g++ -I../src -I. ./ds/test_certifications.cpp -o build/test_certifications -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_certifications.cpp -o build/test_certifications -lm -std=c++11
 
 test_ds_awards:
-	g++ -I../src -I. ./ds/test_awards.cpp -o build/test_awards -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_awards.cpp -o build/test_awards -lm -std=c++11
 
 test_ds_languages:
-	g++ -I../src -I. ./ds/test_languages.cpp -o build/test_languages -lm -std=c++11
+	g++ -I../src -I. ./ds/resume/test_languages.cpp -o build/test_languages -lm -std=c++11
+
+test_ds_resume:
+	g++ -I../src -I. ./ds/resume/test_resume.cpp ../src/ds/resume/resume.cpp ../src/ds/resume/skills.cpp ../src/ds/resume/skill.cpp ../src/ds/resume/education.cpp -o build/test_resume -lm -std=c++11

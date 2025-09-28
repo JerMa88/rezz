@@ -1,0 +1,133 @@
+{
+  "id": 0,
+  "name": "john.doe@email.com",
+  "email": "San Francisco, CA",
+  "city": "+1-555-123-4567",
+  "phone": "https://linkedin.com/in/johndoe",
+  "linkedin": "https://johndoe.dev",
+  "website": "Reading, hiking, coding",
+  "interests": "",
+  "skills": {
+    "type": "Programming Languages",
+    "count": 3,
+    "list": [
+      {
+        "name": "Python",
+        "years": 5,
+        "level": 3
+      },
+      {
+        "name": "JavaScript",
+        "years": 3,
+        "level": 2
+      },
+      {
+        "name": "TypeScript",
+        "years": 2,
+        "level": 1
+      }
+    ]
+  },
+  "education": {
+    "institution": "",
+    "degree": "",
+    "field": "",
+    "start_date": "",
+    "end_date": "",
+    "gpa": -1,
+    "courses": []
+  },
+  "experiences": [
+    {
+      "name": "MIT",
+      "level": 1
+    },
+    {
+      "name": "Computer Science",
+      "level": 1
+    },
+    {
+      "name": "2024-05",
+      "level": 3
+    },
+    {
+      "name": "Data Structures",
+      "level": 1
+    },
+    {
+      "name": "Operating Systems",
+      "level": 1
+    },
+    {
+      "name": "Python Programming",
+      "level": 3
+    },
+    {
+      "name": "JavaScript Development",
+      "level": 2
+    },
+    {
+      "name": "React Framework",
+      "level": 3
+    }
+  ],
+  "projects": [
+  ],
+  "languages": [
+    {
+      "name": "Web Portfolio",
+      "proficiency": 1
+    },
+    {
+      "name": "https://github.com/johndoe/portfolio",
+      "proficiency": 1
+    },
+    {
+      "name": "2023-01",
+      "proficiency": 1
+    },
+    {
+      "name": "React",
+      "proficiency": 2
+    },
+    {
+      "name": "3",
+      "proficiency": 1
+    },
+    {
+      "name": "1",
+      "proficiency": 2
+    }
+  ],
+  "awards": [
+  ],
+  "certifications": [
+    {
+      "name": "English",
+      "authority": "5",
+      "license_number": "Spanish",
+      "url": "3",
+      "issue_date": "",
+      "expiration_date": "Dean's List",
+      "does_not_expire": false
+    },
+    {
+      "name": "2023-12",
+      "authority": "MIT",
+      "license_number": "Outstanding academic performance",
+      "url": "",
+      "issue_date": "",
+      "expiration_date": "Amazon Web Services",
+      "does_not_expire": false
+    },
+    {
+      "name": "AWS-SA-123456",
+      "authority": "https://aws.amazon.com/verify",
+      "license_number": "2024-01",
+      "url": "n",
+      "issue_date": "2027-01",
+      "expiration_date": "resume.json",
+      "does_not_expire": false
+    }
+  ]
+}

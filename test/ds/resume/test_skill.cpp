@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cassert>
 #include <string>
-#include "../src/ds/skill.h"
+#include "../../../src/ds/resume/skill.h"
 
 // Test helper function to display test results
 void testResult(const std::string& testName, bool result) {

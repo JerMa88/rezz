@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/languages.h"
+#include "../../../src/ds/resume/languages.h"
 
 // Language class tests
 void testLanguageConstructor() {

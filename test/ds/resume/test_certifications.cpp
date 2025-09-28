@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/certifications.h"
+#include "../../../src/ds/resume/certifications.h"
 
 // Certification class tests
 void testCertificationConstructor() {

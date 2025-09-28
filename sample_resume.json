@@ -1,0 +1,105 @@
+{
+  "id": 1,
+  "name": "John Doe",
+  "email": "john.doe@email.com",
+  "city": "San Francisco, CA",
+  "phone": "+1-555-123-4567",
+  "linkedin": "https://linkedin.com/in/johndoe",
+  "website": "https://johndoe.dev",
+  "interests": "Reading, hiking, coding",
+  "skills": {
+    "type": "Programming Languages",
+    "count": 3,
+    "list": [
+      {
+        "name": "Python",
+        "years": 5,
+        "level": 3
+      },
+      {
+        "name": "JavaScript",
+        "years": 3,
+        "level": 2
+      },
+      {
+        "name": "TypeScript",
+        "years": 2,
+        "level": 1
+      }
+    ]
+  },
+  "education": {
+    "institution": "MIT",
+    "degree": "Bachelor of Science",
+    "field": "Computer Science",
+    "start_date": "2020-09",
+    "end_date": "2024-05",
+    "gpa": 3.8,
+    "courses": ["Data Structures", "Algorithms", "Operating Systems"]
+  },
+  "experiences": [
+    {
+      "name": "Python Programming",
+      "level": 3
+    },
+    {
+      "name": "JavaScript Development",
+      "level": 2
+    },
+    {
+      "name": "React Framework",
+      "level": 3
+    }
+  ],
+  "projects": [
+    {
+      "name": "Web Portfolio",
+      "description": "A full-stack web application showcasing my projects",
+      "url": "https://github.com/johndoe/portfolio",
+      "course": "Personal Project",
+      "start_date": "2023-01",
+      "end_date": "2023-03",
+      "skills_used": [
+        {
+          "name": "React",
+          "years": 2,
+          "level": 3
+        },
+        {
+          "name": "Node.js",
+          "years": 1,
+          "level": 2
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "proficiency": 5
+    },
+    {
+      "name": "Spanish",
+      "proficiency": 3
+    }
+  ],
+  "awards": [
+    {
+      "name": "Dean's List",
+      "date": "2023-12",
+      "issuer": "MIT",
+      "description": "Outstanding academic performance"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "authority": "Amazon Web Services",
+      "license_number": "AWS-SA-123456",
+      "url": "https://aws.amazon.com/verify",
+      "issue_date": "2024-01",
+      "expiration_date": "2027-01",
+      "does_not_expire": false
+    }
+  ]
+}

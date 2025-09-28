@@ -2,7 +2,7 @@
 #include <cassert>
 #include <string>
 #include <vector>
-#include "../src/ds/skills.h"
+#include "../../../src/ds/resume/skills.h"
 
 // Test helper function to display test results
 void testResult(const std::string& testName, bool result) {

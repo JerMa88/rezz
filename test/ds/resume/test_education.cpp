@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/educations.h"
+#include "../../../src/ds/resume/educations.h"
 
 void testDefaultConstructor() {
     Education edu("MIT", "Bachelor of Science", "Computer Science", "2020-09", "2024-05");

@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/awards.h"
+#include "../../../src/ds/resume/awards.h"
 
 // Award class tests
 void testAwardConstructorWithDescription() {

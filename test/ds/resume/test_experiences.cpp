@@ -3,7 +3,7 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/experiences.h"
+#include "../../../src/ds/resume/experiences.h"
 
 void testExperienceConstructor() {
     Experience exp("Python Programming", ExperienceLevel::INTERMEDIATE);

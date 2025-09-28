@@ -3,8 +3,8 @@
 #include <vector>
 #include <string>
 #include <algorithm>
-#include "../../src/ds/projects.h"
-#include "../../src/ds/skill.h"
+#include "../../../src/ds/resume/projects.h"
+#include "../../../src/ds/resume/skill.h"
 
 void testProjectDefaultConstructor() {
     Project project;

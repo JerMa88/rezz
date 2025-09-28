@@ -1,0 +1,73 @@
+John Doe
+john.doe@email.com
+San Francisco, CA
++1-555-123-4567
+https://linkedin.com/in/johndoe
+https://johndoe.dev
+Reading, hiking, coding
+
+Programming Languages
+Python
+3
+5
+JavaScript
+2
+3
+TypeScript
+1
+2
+
+
+MIT
+Bachelor of Science
+Computer Science
+2020-09
+2024-05
+3.8
+Data Structures
+Algorithms
+Operating Systems
+
+Python Programming
+3
+JavaScript Development
+2
+React Framework
+3
+
+
+Web Portfolio
+A full-stack web application showcasing my projects
+https://github.com/johndoe/portfolio
+Personal Project
+2023-01
+2023-03
+React
+2
+3
+Node.js
+1
+2
+
+
+English
+5
+Spanish
+3
+
+
+Dean's List
+2023-12
+MIT
+Outstanding academic performance
+
+
+AWS Certified Solutions Architect
+Amazon Web Services
+AWS-SA-123456
+https://aws.amazon.com/verify
+2024-01
+n
+2027-01
+
+resume.json
