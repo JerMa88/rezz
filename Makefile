@@ -17,9 +17,20 @@ resume_builder: $(BUILD_DIR)
 		$(SRC_DIR)/ds/resume/jobListing.cpp \
 		-o $(BUILD_DIR)/resume_builder
 
-# Run the application
-run: resume_builder
+# Build the job application tracker
+job_tracker: $(BUILD_DIR)
+	g++ -I$(SRC_DIR) -std=c++11 \
+		$(SRC_DIR)/jobApplicationTracker.cpp \
+		$(SRC_DIR)/ds/resume/jobApplication.cpp \
+		-o $(BUILD_DIR)/job_tracker
+
+# Run the resume builder application
+run_resume: resume_builder
 	./$(BUILD_DIR)/resume_builder
+
+# Run the job tracker application
+run_tracker: job_tracker
+	./$(BUILD_DIR)/job_tracker
 
 # Clean build artifacts
 clean:
@@ -30,6 +41,6 @@ test:
 	$(MAKE) -C test test_all
 
 # Build everything
-all: resume_builder
+all: resume_builder job_tracker
 
-.PHONY: clean run test all
+.PHONY: clean run_resume run_tracker test all

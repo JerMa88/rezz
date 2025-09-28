@@ -4,7 +4,7 @@ TEST_DIR = .
 BUILD_DIR = build
 
 # Run all tests
-test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects test_ds_certifications test_ds_awards test_ds_languages test_ds_resume test_ds_jobListing
+test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects test_ds_certifications test_ds_awards test_ds_languages test_ds_resume test_ds_jobListing test_ds_jobApplication
 	@echo "Running all tests..."
 	@echo "===================="
 	@echo "Running Skills Tests:"
@@ -34,6 +34,9 @@ test_all: test_ds_skills test_ds_education test_ds_experiences test_ds_projects 
 	@echo "Running JobListing Tests:"
 	./build/test_jobListing
 	@echo ""
+	@echo "Running JobApplication Tests:"
+	./build/test_jobApplication
+	@echo ""
 	@echo "All tests completed!"
 
 test_ds_skills:
@@ -62,3 +65,6 @@ test_ds_resume:
 
 test_ds_jobListing:
 	g++ -I../src -I. ./ds/resume/test_jobListing.cpp ../src/ds/resume/jobListing.cpp ../src/ds/resume/skills.cpp ../src/ds/resume/skill.cpp -o build/test_jobListing -lm -std=c++11
+
+test_ds_jobApplication:
+	g++ -I../src -I. ./ds/resume/test_jobApplication.cpp ../src/ds/resume/jobApplication.cpp -o build/test_jobApplication -lm -std=c++11
