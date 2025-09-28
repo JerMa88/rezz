@@ -14,6 +14,7 @@ resume_builder: $(BUILD_DIR)
 		$(SRC_DIR)/ds/resume/skills.cpp \
 		$(SRC_DIR)/ds/resume/skill.cpp \
 		$(SRC_DIR)/ds/resume/education.cpp \
+		$(SRC_DIR)/ds/resume/jobListing.cpp \
 		-o $(BUILD_DIR)/resume_builder
 
 # Run the application
